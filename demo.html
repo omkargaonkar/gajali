@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <h1>Whats up? </h1>
+  <div class="gajaliWrapper">
+    <form class="post-form" name="new_post" action="" method="POST" >
+      <div class="lead emoji-picker-container">
+        <textarea id="textarea_msg" name="textmsg" rows ="5" cols="65" placeholder="Enter messege.." data-emojiable="true"></textarea>
+      </div>
+      <input type="submit" id="post" name="post" value="POST" onsubmit="showHint();">
+    </form>
+  </div>
+
+<p>append div: <span id="txtHint"></span></p>
+
+<script>
+function showHint() {
+ var msg = document.getElementById("textmsg").value;
+   return;
+ var xhttp = new XMLHttpRequest();
+ xhttp.onreadystatechange = function() {
+   if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("txtHint").append(this.responseText);
+   }
+ };
+ xhttp.open("GET", "demo.php?q="+str, true);
+ xhttp.send();
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+body{
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+.panel{
+  width:900px;
+  margin: 40px auto;
+  border: 1px solid #000;
+  height:auto;
+  overflow:auto;
+  background: rgba(224, 208, 228, 0.38);
+}
+.image-class {
+  margin: 0 19px 0 20px;
+  float: left;
+}
+#img {
+  padding: 40px 0;
+  margin: 0 50px;
+}
+.left {
+  float:left;
+  width:70%;
+  border-right: 1px solid;
+}
+.left-saved {
+  float:left;
+  width:70%;
+}
+.right {
+  float:right;
+  width:29%;
+}
+.content-left {
+  margin: 0 25px;
+  padding:10px 10px;
+}
+.trans {
+  background-color:transparent;
+  padding-bottom: 25px;
+}
+.num {
+  font-size: 12px;
+  padding: 10px 0 25px 0;
+  line-height: 1em;
+  font-weight: 500;
+}
+h1 {
+  border: 1px solid grey;
+  margin: 0px;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 13px 23px;
+  background-color: lightgrey;
+}
+p {
+  word-wrap: break-word;
+}
+#h3name {
+  text-decoration: none;
+  color: black;
+}
+div.gajaliWrapper {
+  padding: 15px 5;
+  border: 1px solid #ccc;
+  margin:20px;
+  border-radius: 6px;
+}
+span {
+  &.name {
+    font-size: 18px;
+    color: #79C6C8;
+  }
+  &.time {
+    font-size: 12px;
+    color: #CCC;
+  }
+}
+.post-form {
+  margin: 5px 0;
+  padding: 25px;
+}
+#post {
+  margin:10px 5px;
+  float: left;
+}
+.like {
+  float: right;
+  margin-right: 9px;
+  background-image: url(images/like.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -19px 15px;
+}

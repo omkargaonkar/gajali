@@ -1,0 +1,189 @@
+#toggle {
+  width: 76%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: rgba(224, 208, 228, 0.38);
+}
+#tog {
+  font-size: 32px;
+  padding-top: 197px
+}
+.default {
+  background-image: url("images/gajalifinal.jpg");
+  background-attachment:fixed;
+  background-size: cover;
+  margin: 0 ;
+}
+#install-btn {
+  padding: 20px 25px;
+  font-size: 20px;
+}
+input {
+  font-size: 15px;
+  line-height: 1.4;
+  padding-left: 8px;
+  padding-right: 8px;
+  min-height: 32px;
+  margin-bottom: 8px;
+  background-color: #EEE;
+  color: black;
+  border-radius: 6px;
+}
+#my_tym {
+  font-size: 15px;
+  line-hseight: 1.4;
+  padding-left: 8px;
+  padding-right: 8px;
+  min-height: 32px;
+  margin-bottom: 8px;
+  background-color: #EEE;
+  color: black;
+  border-radius: 6px;
+  float: right;
+  margin-top: -29px;
+}
+
+#signupbutton {
+  border-radius: 5px;
+  background-color: #3e78ad;
+  color: white;
+  height: 29px;
+  width: 92px;
+  margin-top: -8px;
+  }
+.headerClass {
+  height: 100px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+.footerclass {
+  background-image: url(images/sand.png);
+  background-color: #D8AB74;
+  width: 100%;
+  height: 8%;
+  padding: 1px 0px;
+}
+#logninbutton {
+  margin-left: -363%;
+  margin-top: 30px;
+  float: left;
+  height: 30%;
+  width: 148%;
+  background: #2ec866;
+  color: white
+}
+#btn-new {
+    height: 4%;
+    margin-left: 1%;
+    border-radius: 8%;
+}
+#buttons {
+  float: right;
+}
+#gajali {
+  margin-left: 78px;
+  font-family: 'Baloo', cursive;
+  font-size: 485%;
+  color: aliceblue;
+}
+.panel1 {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 641px;
+  background: rgba(224, 208, 228, 0.38);
+  margin-bottom: 1em;
+}
+.ul-panel {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  background: rgba(224, 208, 228, 0.38);
+  margin-bottom: 1em;
+  padding: 10px;
+}
+.panelhead {
+  width: 65%;
+  margin-right: auto;
+  height: 1000px;
+  height: -webkit-fill-available;
+}
+#footerlable {
+  margin: 16px auto;
+  width: fit-content;
+}
+.login {
+  width: 24%;
+  height: auto;
+  margin: 0 auto;
+  background-color: transparent;
+  padding: 0px;
+}
+#labellink {
+  border-radius: 6px;
+  background-color: antiquewhite;
+  margin: 2% auto;
+}
+.container {
+  min-height: 584px;
+}
+.log_info {
+  padding: 14px;
+  width: 100%;
+}
+.forgotpass {
+  min-height: 600px;
+  width: 100%;
+  margin: 4% auto;
+  text-align: -webkit-center;
+}
+.recoverymail {
+  background-color: burlywood;
+  width: 109px;
+  height: 22px;
+  border-radius: 8px;
+}
+.log_btninfo {
+    background-color: #678dd2;
+    width: 181px;
+    border-radius: 2px;
+    width: 100%;
+    padding: 8px 10px;
+    margin: 2% auto;
+    border-radius: 6px;
+}
+#link {
+    text-decoration: none;
+    color: #4235b1;
+    font-size: 15px;
+    font-weight: 700;
+}
+#heading {
+  font-weight: 30pt;
+  font-family: 'Dekko', cursive;
+  font-size: 30px;
+  line-height: 1.4;
+  color: #842142;
+  word-wrap: break-word;
+  text-align: center;
+}
+#signupdiv{
+  text-align: center;
+  min-height: 600px;
+}
+#signuptag {
+  color: #070a0a;
+  font-size: 32px;
+}
+#signup {
+  min-height: 140%;
+}
+#gajalilink {
+  text-decoration: none;
+}
